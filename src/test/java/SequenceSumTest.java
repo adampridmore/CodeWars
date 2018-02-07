@@ -2,8 +2,6 @@ import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
 
 public class SequenceSumTest {
-    SequenceSum sequenceSum = new SequenceSum();
-
     @Test
     public void testKnownValues() {
         assertArrayEquals(new int[]{0, 1, 3, 6}, SequenceSum.sumOfN(3));

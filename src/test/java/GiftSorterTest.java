@@ -14,5 +14,4 @@ public class GiftSorterTest {
         GiftSorter gs = new GiftSorter();
         assertEquals("reverse alphabet", "abcdefghijklmnopqrstuvwxyz", gs.sortGiftCode("zyxwvutsrqponmlkjihgfedcba"));
     }
-
 }
